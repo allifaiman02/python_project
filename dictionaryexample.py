@@ -8,8 +8,9 @@ while len(employee) < max_length :
     
     work_exp = []
     for j in range (3) :
-        work = input("Enter your work experince :")
+        work = input("Enter your work experince No " + str(j+1) + " :")
         work_exp.append(work) 
+
 
     if name not in employee :
         #employee[name] = salary
